@@ -15,7 +15,7 @@ class Profession:
     def ShowOn(self):
         print(f"Name: {self.name} \nCategory: {self.category} \nSalary: {self.salary}$ \nWork_hours: {self.work_hours}")
     def __del__(self):
-        print("Deleted objects of MI")
+        print("Deleted objects of Profession")
 
 if __name__ == '__main__':
     profession = Profession()
